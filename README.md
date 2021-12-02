@@ -15,6 +15,10 @@ _Sample inputs:_ with augmentations 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4,'
 
 All these augmentations are applied on letter box resizing due to variation in the size of object class "Gun"
 
+#### Data Preparation
+
+
+
 ### Current performance metrics v0.0
 
 After filtering detections which have confidence score which are less than 0.4. 
