@@ -21,6 +21,6 @@ After filtering detections which have confidence score which are less than 0.4.
 Following are the results
 
 | _Per class_ |precision    |recall  |map@0.5  |map@0.95 | total no of images |
-| --- | --- | --- | --- | ---
-| 'Gun' | 0.85 | 0.9 | 0.91 |0.552|28
+| --- | --- | --- | --- | --- | ---
+| 'Gun' | 0.85 | 0.9 | 0.91 |0.552 | 28 |
 
