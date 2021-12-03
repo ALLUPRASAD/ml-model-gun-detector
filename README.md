@@ -73,6 +73,10 @@ _Sample result:_
 
   1.Change directory to dev/yolov5/
   
-  2.Mention the required parameters in detect.py with following details
+  2.Mention the required parameters in detect.py with following details along with best.pt params file which is there in model_params folder 
   
       weights='best.pt', source='images', img_size=512, conf_thres=0.4, iou_thres=0.2, device='', view_img=False, save_txt=False, save_conf=False,  classes=None,   agnostic_nms=False, augment=False, update=False, project='runs/detect', name='exp', exist_ok=False
+      
+  3.Run the following command 
+  
+      python3 detect.py --weights best.pt --img_size 512 --source images
