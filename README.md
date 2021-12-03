@@ -62,3 +62,9 @@ Following are the results on test data with confidence score>0.4
 | --- | --- | --- | --- | --- | ---
 | 'Gun' | 0.85 | 0.9 | 0.91 |0.552 | 28 |
 
+### Prediction results
+_Sample result:_
+
+<img src="./assets/a.jpg" width="280" height="280"/> <img src="./assets/b.jpg" width="280" height="280"/> <img src="./assets/c.jpg" width="280" height="280"/>
+<img src="./assets/d.jpg" width="280" height="280"/> <img src="./assets/e.jpg" width="280" height="280"/> <img src="./assets/f.jpg" width="280" height="280"/>
+
