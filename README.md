@@ -23,7 +23,7 @@ All these augmentations are applied on letter box resizing due to variation in t
     
 ## Training data 
 
-In current dataset contains 330 training images
+In current dataset contains 330 training images and trained with 512*512 dimensions 
 
  Train Dataset | Validation dataset| Test | Epochs|
 | --- | --- |  --- |--- |
