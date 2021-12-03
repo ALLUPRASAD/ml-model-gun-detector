@@ -68,3 +68,9 @@ _Sample result:_
 | <img src = "assets/a.jpg" height="260" width="300"/>  | <img src = "assets/b.jpg" height="260" width="300"/> | <img src = "assets/c.jpg" height="260" width="300"/> |
 
 | <img src = "assets/d.jpg" height="260" width="300"/>  | <img src = "assets/e.jpg" height="260" width="300"/> | <img src = "assets/f.jpg" height="260" width="300"/> |
+
+## Inference instructions 
+
+  1.Change directory to dev/yolov5/
+  2.Mention the required parameters in detect.py with following details
+      weights='best.pt', source='images', img_size=512, conf_thres=0.4, iou_thres=0.2, device='', view_img=False, save_txt=False, save_conf=False,  classes=None,   agnostic_nms=False, augment=False, update=False, project='runs/detect', name='exp', exist_ok=False
