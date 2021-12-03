@@ -55,8 +55,8 @@ In current dataset contains 330 training images and trained with 512*512 dimensi
 
 ### Current performance metrics v0.0
 
-After filtering detections which have confidence score which are less than 0.4. 
-Following are the results
+ 
+Following are the results on test data with confidence score>0.4
 
 | _Per class_ |precision    |recall  |map@0.5  |map@0.95 | total no of images |
 | --- | --- | --- | --- | --- | ---
