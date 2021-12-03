@@ -18,7 +18,7 @@ All these augmentations are applied on letter box resizing due to variation in t
 ## Data Preparation
   1. Removed the images which don't have annotations 
   2. Converted annotations into standard yolo format
-   follow the steps provide in the data_preprocessing data_preparation (./data_preparation/notebook data_preprocessing (2).ipynb)
+   follow the steps provide in the data_preprocessing data_preparation [Data Preparation]:(./data_preparation/notebook data_preprocessing (2).ipynb)
   Data Extraction: data is extracted along with labels from https://www.kaggle.com/issaisasank/guns-object-detection
     
 ## Training data 
