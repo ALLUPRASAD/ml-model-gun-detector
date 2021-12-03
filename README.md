@@ -20,7 +20,7 @@ All these augmentations are applied on letter box resizing due to variation in t
     1.Removed the images which don't have annotations 
     2.Converted annotations into standard yolo yolo formate 
     
-    Data Extraction:(https://www.kaggle.com/issaisasank/guns-object-detection)
+    Data Extraction: data is extracted along with labels from https://www.kaggle.com/issaisasank/guns-object-detection
     
 ## Training data 
 
