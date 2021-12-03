@@ -11,7 +11,7 @@ _Output_: Valid classes: 'Gun'
 
 _Sample inputs:_ with augmentations 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4,'translate': 0.3, 'scale': 0.1 
 
-|<img src="./assets/sample.jpg" width="280" height="280"/> | <img src="./assets/sample3.jpg" width="280" height="280"/> | <img src="./assets/sample2.jpg" width="280" height="280"/>|
+|<img src="./assets/sample.jpg" width="240" height="240"/> | <img src="./assets/sample3.jpg" width="240" height="240"/> | <img src="./assets/sample2.jpg" width="240" height="240"/>|
 
 All these augmentations are applied on letter box resizing due to variation in the size of object class "Gun"
 
@@ -76,9 +76,9 @@ Following are the results on test data with confidence score>0.4
 ### Prediction results
 _Sample result:_
 
-| <img src = "assets/a.jpg" height="260" width="280"/>  | <img src = "assets/b.jpg" height="260" width="280"/> | <img src = "assets/c.jpg" height="260" width="280"/> |
+| <img src = "assets/a.jpg" height="240" width="260"/>  | <img src = "assets/b.jpg" height="240" width="260"/> | <img src = "assets/c.jpg" height="240" width="260"/> |
 
-| <img src = "assets/d.jpg" height="260" width="280"/>  | <img src = "assets/e.jpg" height="260" width="280"/> | <img src = "assets/f.jpg" height="260" width="280"/> |
+| <img src = "assets/d.jpg" height="240" width="260"/>  | <img src = "assets/e.jpg" height="240" width="260"/> | <img src = "assets/f.jpg" height="240" width="260"/> |
 
 ## Inference instructions 
 
