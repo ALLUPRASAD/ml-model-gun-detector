@@ -62,6 +62,17 @@ Following are the results on test data with confidence score>0.4
 | --- | --- | --- | --- | --- | ---
 | 'Gun' | 0.85 | 0.9 | 0.91 |0.552 | 28 |
 
+### Testing instructions 
+
+1.Change directory to dev/yolov5/
+
+2.Mention the required parameters in test.py and keep the test images and annotations as specified in data.yaml 
+
+3.Run the below command 
+
+    python3 test.py --task test 
+
+
 ### Prediction results
 _Sample result:_
 
