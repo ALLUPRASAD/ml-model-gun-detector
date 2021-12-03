@@ -15,10 +15,12 @@ _Sample inputs:_ with augmentations 'hsv_h': 0.015, 'hsv_s': 0.7, 'hsv_v': 0.4,'
 
 All these augmentations are applied on letter box resizing due to variation in the size of object class "Gun"
 
-#### Data Preparation
+### Data Preparation
     
     1.Removed the images which don't have annotations 
     2.Converted annotations into standard yolo yolo formate 
+    
+    Data Extraction:(https://www.kaggle.com/issaisasank/guns-object-detection)
     
 ## Training data 
 
