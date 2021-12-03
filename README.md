@@ -29,6 +29,20 @@ In current dataset contains 330 training images
 | --- | --- |  --- |--- |
 | 330| 30| 30 |50 |
 
+## Training instructions 
+
+  Change directory to dev/yolov5/
+  install dependencies using !pip install -r requirments.txt 
+  Create data.yaml file which containes train,val and test training images and labels  
+    train : data/data/train/images
+    val : data/data/val/images
+    test : data/data/test/images
+    nc : 1
+    names: ["Gun"] 
+   
+  Check defaults parameters in train.py and specify any parameters you want to it be different.
+Run train.py python train.py . Sample command: python train.py --num-gpus 1 --im-size 512 --epochs 100 --lr 0.001 --lr-decay 0.01 --lr-decay-epoch '40,80,120' --save-prefix 'ssd_mobilenet1.0' --save-interval 50 --batch-size 8 --model-dir './model_checkpoint/' --task-name 'wd-det-adjust-chain' --classes 'window,door' --save-model-s3 's3://ev-ml-data/satheesh/Window_Door_ObjDet/v.0.0/model/v0.0.params' > train_log.log
+
 
 
 ### Current performance metrics v0.0
