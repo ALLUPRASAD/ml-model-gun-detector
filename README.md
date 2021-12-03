@@ -66,5 +66,6 @@ Following are the results on test data with confidence score>0.4
 _Sample result:_
 
 <img src="./assets/a.jpg" width="380" height="180"/> <img src="./assets/b.jpg" width="380" height="180"/> <img src="./assets/c.jpg" width="380" height="180"/>
+
 <img src="./assets/d.jpg" width="380" height="180"/> <img src="./assets/e.jpg" width="380" height="180"/> <img src="./assets/f.jpg" width="380" height="180"/>
 
